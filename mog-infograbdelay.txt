@@ -1,3 +1,5 @@
+ROM made by @misterofgames_yt
+
 DELAY 1000
 GUI r
 DELAY 500
